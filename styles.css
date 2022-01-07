@@ -1,0 +1,74 @@
+p {
+  color: red;
+  font-style: italic;
+}
+
+body {
+  background-color: #FFC900;
+
+}
+
+h1 {
+  color: blue;
+}
+
+img {
+
+border: 3px solid  #F43B86;
+  border-radius: 25px;
+  width: 350px;
+  height: 350px;
+  margin: 75px 50px 75px 80px;
+}
+
+.new5 {
+  border: 10px solid #3DB2FF;
+  border-radius: 5px;
+}
+
+
+.button {
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+a {
+  color: #98BAE7;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
+}
